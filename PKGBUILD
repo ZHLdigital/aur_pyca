@@ -8,7 +8,7 @@ url="https://github.com/opencast/pyCA"
 license=('LGPL')
 depends=('gnutls' 'python-dateutil' 'python-configobj' 'python-flask' 'python-pycurl' 'python-sqlalchemy')
 optdepends=('gunicorn: wsgi web interface')
-source=("https://github.com/opencast/pyCA/archive/v$pkgver.tar.gz"
+source=("$pkgname-$pkgver.tar.gz::https://github.com/opencast/pyCA/archive/v$pkgver.tar.gz"
         "pyca.install"
         "pyca.service"
         "pyca-ui.service"
